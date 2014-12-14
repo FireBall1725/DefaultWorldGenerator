@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "defaultworldgenerator",
+  "name": "Default World Generator",
+  "description": "A small mod to automatically select the default world generator for single player",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["FireBall1725"],
+  "credits": "Special thanks to amadornes for reflection help",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
