@@ -46,6 +46,10 @@ public class GuiCreateCustomWorld extends GuiCreateWorld {
 
             func_146319_h.invoke(this);
 
+            if (ConfigGeneralSettings.generalLockWorldGenerator) {
+
+            }
+
         } catch (Exception ex) {
             Log.fatal("Fatal Error:");
             Log.fatal(ex);
