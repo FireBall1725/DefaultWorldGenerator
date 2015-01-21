@@ -26,6 +26,12 @@ public class ConfigurationHelper {
         return property.getString();
     }
 
+    public static String[] getString(Configuration configuration, String name, String category, String[] defaultValue, String comment) {
+        Property property = configuration.get(category, name, defaultValue);
+        property.comment = comment;
+        return property.getStringList();
+    }
+
     public static boolean getBoolean(Configuration configuration, String name, String category, boolean defaultValue, String comment) {
         Property property = configuration.get(category, name, defaultValue);
         property.comment = comment + " [default: " + defaultValue + "]";
