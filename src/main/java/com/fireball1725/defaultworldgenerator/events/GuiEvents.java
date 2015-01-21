@@ -33,6 +33,6 @@ public class GuiEvents {
             }
         }
 
-        Log.error(event.button.id + " - " + event.gui.toString());
+        //Log.error(event.button.id + " - " + event.gui.toString());
     }
 }
